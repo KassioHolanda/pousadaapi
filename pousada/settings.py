@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 import datetime
 import os
-import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -149,4 +148,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # AUTH_USER_MODEL = 'core.Usuario'
 
-django_heroku.settings(locals())
