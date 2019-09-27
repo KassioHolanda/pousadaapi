@@ -13,7 +13,7 @@ import datetime
 import os
 
 # encoding=utf8
-import sys
+# import sys
 # reload(sys)
 # sys.setdefaultencoding('utf8')
 
